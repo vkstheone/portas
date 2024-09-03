@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div style={{display: "flex"}}>
       <Porta  selecionada />
-      <Porta />
+      <Porta selecionada/>
     </div>
   );
 }
